@@ -1,0 +1,69 @@
+---
+title: "Learning R Markdown"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Giant Title
+
+## Big Title
+
+### Medium Title
+
+#### Small Title
+
+
+- bullet
+
+- points
+
+1. A 
+
+1. numbered
+
+1. list
+
+
+
+```{r}
+library(tidyverse)
+str(iris)
+
+```
+
+First load the iris dataset and examine it.
+
+
+```{R}
+ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width, colour= Species))+
+  geom_point()
+
+```
+
+Then build a plot showing the iris data.
+
+You can add some code where only the output will be seen.
+```{R, echo = FALSE}
+str(iris)
+```
+
+You can add some code where the output will not be seen in the html file.
+```{R, eval= FALSE}
+
+iris
+
+```
+
+
+You can add code where both the code and the output are invisible.
+
+```{R, include=FALSE}
+
+iris
+```
+
+^There is magical, invisible code here.

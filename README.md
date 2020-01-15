@@ -25,7 +25,7 @@ Code for paper on elusive Carpathian dragons
  tz       Europe/London               
  date     2020-01-15                  
 
-- Packages -----------------------------------------------------------------------------------
+- Packages ---------------------------------------------------------------------------------
  package     * version date       lib source        
  assertthat    0.2.1   2019-03-21 [1] CRAN (R 3.6.2)
  backports     1.1.5   2019-10-02 [1] CRAN (R 3.6.1)

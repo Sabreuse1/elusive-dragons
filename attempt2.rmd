@@ -1,6 +1,8 @@
 ---
 title: "letstryagain"
-output: pdf_document
+output:
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
